@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BH Music Festival - Edição 2027</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho" id="inicio">
+        <h1 class="titulo-festival">BH MUSIC FESTIVAL</h1>
+        <p class="subtitulo-festival">Celebração da música</p>
+    </header>
+
+    <!-- Menu Sticky -->
+    <nav class="menu-navegacao">
+        <ul class="lista-menu">
+            <li><a href="#inicio" class="link-menu">Início</a></li>
+            <li><a href="#atracoes" class="link-menu">Atrações</a></li>
+            <li><a href="#informacoes" class="link-menu">Informações</a></li>
+            <li><a href="#ingressos" class="link-menu">Ingressos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="conteudo-principal">
+
+        <!-- Banner com Selo (Relative + Absolute) e Destaque (z-index) -->
+        <section class="banner-container">
+            <img src="https://images.unsplash.com/photo-1701099153549-a94513b57f60?q=80&w=875&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                 alt="Palco do Sound Wave Festival com luzes e público" 
+                 class="imagem-banner">
+            
+            <span class="selo-ingressos">ÚLTIMOS INGRESSOS</span>
+            
+            <div class="destaque-sobreposto">
+                Edição 2027
+            </div>
+        </section>
+
+        <!-- Seção de Atrações -->
+        <section id="atracoes" class="secao">
+            <h2 class="titulo-secao">Atrações Confirmadas</h2>
+            <div class="grade-atracoes">
+                <article class="card-atracao">
+                    <h3>U2 Latim American</h3>
+                    <p>U2 tribute</p>
+                    <span class="horario">Sábado, 14h00</span>
+                </article>
+                <article class="card-atracao">
+                    <h3>Acoustic `N` Roll</h3>
+                    <p>Rock Classico Acustico</p>
+                    <span class="horario">Sábado, 16h00</span>
+                </article>
+                <article class="card-atracao">
+                    <h3>Jhonny Mattos</h3>
+                    <p>Cover Bruno Mars</p>
+                    <span class="horario">Sábado, 18h00</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção de Informações e Regras com Overflow -->
+        <section id="informacoes" class="secao">
+            <h2 class="titulo-secao">Informações do Evento</h2>
+            
+            <div class="info-evento">
+                <p><strong>Data:</strong> 09 de Janeiro de 2027</p>
+                <p><strong>Local:</strong> Praca Jose Mendes Junior, Savassi — Belo Horizonte, MG</p>
+                <p><strong>Abertura dos portões:</strong> 12h00</p>
+            </div>
+
+            <div class="regras-container">
+                <h3>Regras do Evento</h3>
+                <div class="caixa-regras">
+                    <p>1. A entrada é permitida apenas para maiores de 18 anos mediante apresentação de documento oficial com foto.</p>
+                    <p>2. Não é permitida a entrada com bebidas alcoólicas, garrafas de vidro, objetos cortantes ou inflamáveis.</p>
+                    <p>3. O ingresso é pessoal e intransferível. A leitura do QR Code será feita na portaria.</p>
+                    <p>4. Caso saia do recinto do festival, não será permitido o retorno com o mesmo ingresso.</p>
+                    <p>5. Contamos com praça de alimentação completa, pontos de hidratação gratuita e atendimento médico 24h.</p>
+                    <p>6. Respeite o próximo e divirta-se com responsabilidade. Qualquer comportamento agressivo resultará na remoção do evento.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Ingressos -->
+        <section id="ingressos" class="secao">
+            <h2 class="titulo-secao">Ingressos</h2>
+            <p class="texto-ingressos">Garanta já o seu passaporte para os três dias de festival antes que o lote atual esgote.</p>
+            <div class="lotes">
+                <div class="card-lote">
+                    <h4>Pista</h4>
+                    <p class="preco">R$ 250,00</p>
+                </div>
+                <div class="card-lote">
+                    <h4>Área VIP</h4>
+                    <p class="preco">R$ 480,00</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Botão Fixo -->
+    <a href="#ingressos" class="botao-fixo">Comprar ingresso</a>
+
+    <footer class="rodape">
+        <p>&copy; 2026 Sound Wave Festival. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
